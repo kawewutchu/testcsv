@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;	
+	line-height:1.4;
+	color:#333;
+	padding-top: 0px;
+	background-color: #f4f9ff; 
+}
+
+.table {
+  width: 100%;
+  table-layout: auto;
+  word-wrap: break-word;
+}
+
+/* タグのラベル */
+.taglabel { 
+	font-weight: normal; 
+}
+
+/* navbar 背景色 */
+.navbar-default {
+	background-color: #00316a;
+}
+/* navbar テキストカラー */
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+/* navbar hover,focus時のテキストカラー */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #e4ffa2;
+	background-color: transparent;
+}
+
+body > .container{
+	padding-top: 120px;
+}
